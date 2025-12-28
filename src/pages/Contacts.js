@@ -10,7 +10,7 @@ import BackupIcon from '@mui/icons-material/Backup';
 import { Box } from '@mui/system';
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
-import GoogleMap from '../components/Contacts.js/GoogleMap';
+import GoogleMap from '../components/Contacts/GoogleMap';
 
 function Contacts() {
     const address = {
