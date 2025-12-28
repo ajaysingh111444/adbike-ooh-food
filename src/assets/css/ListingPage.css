@@ -1,0 +1,97 @@
+/* searchbar */
+
+.searchIcon{
+    z-index: 9;
+    position: absolute;
+    color: #999;
+    top: 2px;
+    /* right: 2px; */
+    border: 0;
+    height: 38px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    font-size: 1.125rem;
+    outline: none;
+}
+.searchInput{
+    border: 0;
+    height: 40px;
+    -webkit-border-radius: 3px;
+    box-shadow: 0 0 0 0.15rem rgba(0,0,0,0.05);
+    width: 100%;
+    background-color: #fff;
+}
+.listingPage{
+    padding: 30px 0 20px 0;
+    background-color: #f4f4f4;
+}
+/* right side - sec-1 */ 
+ 
+h5{
+    font-weight: 700;
+}
+.css-185gdzj-MuiCardHeader-root{
+    padding: 1px !important;
+}
+.css-sgoict-MuiCardHeader-action{
+    margin-top: 5px !important;
+    margin-right: 5px !important;
+    margin-bottom: 0px !important; 
+}
+.css-46bh2p-MuiCardContent-root {
+    padding: 0px 0px 5px 15px !important;
+}
+.MuiCardActions-root button{
+    color: #444;
+}
+.NestedList .MuiButtonBase-root{
+    padding: 5px !important;
+}
+.MuiFormControlLabel-root{
+    margin-bottom: 0px;
+}
+.NestedList .MuiList-padding{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.NestedList hr{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.filterBtn button{
+    width: 100%;
+    margin-top: 1.7rem;
+    border: 2px solid #111;
+    color: #111;
+    background: none;
+}
+.listing_filter-fixed{
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  width: 19%;
+  margin-top: 4%;
+}
+
+.search-icon {
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
+/* mobile view */
+
+@media only screen and (max-width:600px){
+    .topRatedRestaurantDiv{
+        width: 100% !important;
+    }
+    .listing_filter-fixed{
+        display: none;
+    }
+    .scrolled .searchbar {
+        top: 10px; /* adjust this value to position the icon as desired */
+        position: fixed;
+        z-index: 9999;
+        width: 90%;
+    }
+}

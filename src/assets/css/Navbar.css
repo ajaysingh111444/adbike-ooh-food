@@ -1,0 +1,56 @@
+
+.navbar.active{
+    transition: all 0.3s ease-in-out;
+    border-bottom: 1px solid #ededed;
+    background-color: #fff;
+}
+.navbar{
+    padding: 0px;
+}
+.MuiToolbar-root{
+    padding: 0px;
+}
+
+.navigation-menu{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+.navigation-menu li{
+    margin: 0px 20px;
+}
+
+.logo, .login-icon, .menu-icon{
+    color: black;
+}
+.navigation-menu li a{
+    text-decoration: none;
+    color: #222;
+    padding: 0 8px 10px 8px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* mobile view */
+
+.mobile-logo{
+    color: #fff;
+}
+.mobile-navigation{
+    list-style: none;
+    text-align: left;
+}
+.mobile-navigation li{
+    margin-top: 20px;
+    margin-left: 0px;
+    position: relative;
+}
+.mobile-navigation li a{
+    text-decoration: none;
+    text-align: left;
+    font-size: 1.1rem;
+    display: block;
+    color: #333 !important;
+}

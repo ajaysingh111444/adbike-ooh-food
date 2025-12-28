@@ -1,0 +1,36 @@
+.box_contact{
+    text-align: center;
+    background: #fff;
+    padding: 40px 30px 15px 30px;
+    display: block;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.05);
+    color: #444;
+    margin-bottom: 30px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.box_contact h2{
+    font-weight: 400;
+    margin: 10px 0 10px 0;
+    font-size: 1.3125rem;
+    color: black;
+}
+.box_contact p{
+    font-size: 14px;
+}
+.box_contact .MuiSvgIcon-root{
+    font-size: 50px;
+    color: #f3723b;
+}
+.sec-2.contact Button{
+    background-size: 100%;
+    background-image: -webkit-linear-gradient(right, #f3723b, #e54750);
+    background-image: linear-gradient(to right, #f3723b, #e54750);
+    position: relative;
+    z-index: 1;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    color: #fff;
+}

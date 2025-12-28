@@ -1,0 +1,184 @@
+strong {
+    font-weight: 500;
+}
+.whySubmitSec{
+    margin-top: 60px;
+}
+.whySubmitSec h4{
+    font-weight: 500;
+    font-size: 1.75rem;
+    color: #e54750;
+}
+.whySubmitSec p{
+    font-size: 1.2rem;
+    color: #777;
+    line-height: 1.6;
+}
+.plan {
+    margin: 10px 0;
+    padding: 20px 20px 30px 20px;
+    text-align: center;
+    border: solid #ededed;
+    border-width: 1px 0 1px 1px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.plan-title {
+    position: relative;
+    margin: -25px -25px 30px -25px;
+    padding: 30px 20px 5px 20px;
+    border-bottom: 1px dotted #ccc;
+    font-size: 16px;
+    font-size: 1rem;
+    background-color: #f8f8f8;
+    color: #777;
+}
+.plan-title h3 {
+    margin-bottom: 0;
+}
+.plan-price {
+    margin: 0 auto 15px;
+    width: 110px;
+    height: 110px;
+    line-height: 115px;
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    background: #777;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    border-radius: 100px;
+    display: inline-block;
+    text-align: center;
+}
+.plan-features{
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+.plan-features li{
+    list-style: none;
+}
+.plan Button{
+    background: #f0f0f0;
+    color: #e54750;
+}
+.plan Button:hover{
+    background-color: #e54750;
+    color: #fff !important;
+}
+.plan-tall {
+    margin: 0;
+    background: #fff;
+    border-radius: 10px;
+    margin-right: -5px;
+    position: relative;
+    z-index: 100;
+    border: solid #e54750;
+    position: relative;
+}
+.plan-tall .plan-title {
+    background-color: #e54750;
+    border-bottom: none;
+    color: #fff;
+}
+.plan-tall>.plan-price {
+    height: 130px;
+    width: 130px;
+    line-height: 135px;
+    font-size: 36px;
+    background: #e54750;
+    -webkit-border-radius: 130px;
+    -moz-border-radius: 130px;
+    -ms-border-radius: 130px;
+    border-radius: 130px;
+}
+.plan-tall Button, .submitForm Button, .home Button, .RiderSubmitForm Button{
+    background-size: 100%;
+    background-image: -webkit-linear-gradient(right, #f3723b, #e54750);
+    background-image: linear-gradient(to right, #f3723b, #e54750);
+    position: relative;
+    z-index: 1;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    color: #fff;
+}
+
+.MuiTextField-root{
+    width: 100%;
+}
+.submitForm{
+    text-align: left;
+}
+.submitForm h4{
+    margin-bottom: 10px;
+}
+.submitForm .form-group{
+    margin-bottom: 10px;
+}
+
+/***** submit rider  *****/
+
+.box_topic{
+    text-align: center;
+    background: #fff;
+    padding: 40px 30px 15px 30px;
+    display: block;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.05);
+    color: #444;
+    margin-bottom: 30px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.box_topic.submit h3 {
+    color: #e54750;
+    font-size: 1.125rem;
+    margin-top: 10px;
+}
+.box_topic.submit p{
+    margin-bottom: 20px;
+}
+.RiderSubmitForm .nav.nav-tabs{
+    display: none;
+}
+.wizard{
+    text-align: left;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.05);
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding-bottom: 50px;
+}
+.backward {
+    color: #777 !important;
+    background: #e8e8e8 !important;
+}
+.backward:hover{
+    background: #f3723b !important;
+    color: #fff !important;
+}
+.wizard h3.main_question {
+    margin: 0 0 20px 0;
+    padding: 0;
+    font-weight: 500;
+    font-size: 18px;
+    font-size: 1.125rem;
+}
+.MuiInputBase-input{
+    background-color: #fff;
+}
+@media only screen and (max-width:600px){
+    .submitBtn{
+        width: 30% !important;
+    }
+}

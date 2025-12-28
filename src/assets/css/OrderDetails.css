@@ -1,0 +1,84 @@
+.box_order{
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.1);
+    margin-top: 40px;
+  }
+  .box_order-fixed{
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: 26%;
+    margin-top: -2%;
+  }
+  .box_order .head{
+    border-radius: 5px 5px 0 0;
+      text-align: center;
+      border-bottom: 1px solid #ededed;
+      padding: 17px 20px 12px 20px;
+      background-color: #454545;
+      color: #fff;
+  }
+  .list-group-item{
+    border: 0px !important;
+  }
+  .main .list-group-item{
+    padding: 0.25rem 1.25rem !important;
+  }
+  .deliveryRadioBtn{
+    border-top: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+    margin-bottom: 20px;
+    padding: 15px 0 5px 0;
+    display: flex;
+  }
+  .orderDate{
+    text-align: center;
+    display: block;
+    margin-top: 5px;
+  }
+  .orderDate .MuiFormControl-root{
+    width: 80%;
+  }
+  .orderDate .MuiInputBase-root, .orderTime .MuiInputBase-root{
+    border-radius: 0px;
+    border: 1px dotted #c8c8c8;
+  }
+  .orderTime .MuiStack-root{
+    width: 90%;
+    margin: auto;
+  }
+  .orderTime .MuiFormControl-root{
+    width: 100%;
+  }
+  .orderNowBtn{
+    text-align: center;
+  }
+  .orderNowBtn Button{
+    background-image: linear-gradient(to right, #f3723b, #e54750);
+    text-transform: capitalize !important;
+    padding: 8px 25px !important; 
+    width: 80%;
+    margin: 20px 0px 30px 0px;
+  }
+  .addtocart Button{
+    width: 100%;
+    background-image: linear-gradient(to right, #f3723b, #e54750);
+    text-transform: capitalize !important;
+    padding: 8px 25px !important; 
+    margin: 20px 0px 30px 0px;
+  }
+  .paymentMethod .creditCard{
+    display: flex;
+    justify-content: space-between;
+    background-color: #eeeeee;
+    padding: 8px 15px 8px 15px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    max-width: 95%;
+    margin: 13px;
+  }
+  .paymentMethod{
+    padding-bottom: 20px;
+  }
+  
