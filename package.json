@@ -1,6 +1,6 @@
 {
   "name": "call4need",
-  "homepage": "https://call4need.com/",
+  "homepage": "/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -20,7 +20,6 @@
     "bootstrap": "^5.2.3",
     "date-fns": "^2.29.3",
     "dayjs": "^1.11.7",
-    "google-map-react": "^2.2.5",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.2",
     "react-bootstrap-icons": "^1.10.2",
